@@ -1,0 +1,121 @@
+:root{
+  --color-titulo: darkblue ;
+  
+  --btn-color:#f2f2f2;
+  --btn-back:#3E56CF ;
+  
+  --valores-line:#CCD4FF
+}
+
+/**provemos el width **/
+
+body{
+  margin:20px;
+}
+
+/** Div 0: Datos **/
+h1 {
+  color: var(--color-titulo) ;
+  text-align: center ;
+}
+
+.caja {
+  margin:10px 10px 40px 10px;
+
+}
+
+b {
+  color: indianred
+}
+
+/** Div #1: Formulario**/
+
+form {
+  margin: 10px;
+  padding:10px;
+}
+
+    /** Div1 etiqueta form **/
+.total-div{
+  padding:5px;
+  border:1px solid black ;
+  text-align: center ;
+}
+
+.total {
+  display: block;
+  font-weight: bold;
+  width:100%;
+ 
+  
+  Color: var(--color-titulo);
+  font-size: 120%;
+  text-align: center;
+  border:none ;  
+}
+
+.total-valor {
+  color: indianred;
+  display:inline-block;
+  text-align: center;
+  margin:auto;
+  width:30%;
+} 
+
+  /** Div 2 etiqueta form **/
+.valores-div{
+  border:1px solid black ;
+  padding:20px ;
+}
+
+
+    /**Etiqueta de valores fijos**/
+label {
+  display:inline-block;
+  width:50%;
+  
+  font-size:15px ;
+  margin: 30px 0px ;
+  
+ 
+}
+
+    /** Etiqueta para pedir valores**/
+input {
+  color:black ;
+  font-size: 15px;
+  
+  border:none;
+  border-bottom: 2px solid
+    var(--valores-line);
+  margin:0px;
+ 
+}
+
+
+
+  
+
+
+/** Div2 boton**/
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: var(--btn-back);
+  
+  
+      /** Existen 3 posiciones (absolute,fixed y relative) bueno quizas muchas mas **/
+  position:relative ;
+  left:65%;
+ 
+ 
+  
+  
+  color: var(--btn-color);
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+  
+  
+}  
